@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:settings_ui/src/tiles/abstract_settings_tile.dart';
 import 'package:settings_ui/src/utils/settings_theme.dart';

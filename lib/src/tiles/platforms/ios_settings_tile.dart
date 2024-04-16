@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:settings_ui/settings_ui.dart';
@@ -250,6 +252,7 @@ class _IOSSettingsTileState extends State<IOSSettingsTile> {
                     Divider(
                       height: 0,
                       thickness: 0.7,
+                      endIndent: 18,
                       color: theme.themeData.dividerColor,
                     ),
                 ],

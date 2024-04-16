@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:settings_ui/settings_ui.dart';
 import 'package:settings_ui/src/tiles/platforms/ios_settings_tile.dart';
@@ -36,6 +38,7 @@ class IOSSettingsSection extends StatelessWidget {
             Padding(
               padding: EdgeInsetsDirectional.only(
                 start: 18,
+                end: 18,
                 bottom: 5 * scaleFactor,
               ),
               child: DefaultTextStyle(
